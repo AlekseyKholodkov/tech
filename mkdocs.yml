@@ -1,0 +1,8 @@
+site_name: Tech Documentation
+theme:
+  name: material
+
+nav:
+  - Security:
+      - Encryption: security/encryption.md
+      - Public & Private Keys: security/asymmetric-keys.md
