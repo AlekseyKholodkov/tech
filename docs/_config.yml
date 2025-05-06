@@ -1,0 +1,18 @@
+title: TechDoc
+description: "Technical Documentation Project"
+theme: jekyll-theme-slate
+markdown: kramdown
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Security:
+      - Encryption: security/encryption.md
+      - Public & Private Keys: security/asymmetric-keys.md
+  - Development:
+      - Setup: development/setup.md
+      - Architecture: development/architecture.md
+
+# Optional: Sidebar (using jekyll-toc plugin for a table of contents sidebar)
+plugins:
+  - jekyll-toc
