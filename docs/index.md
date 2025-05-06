@@ -1,4 +1,4 @@
-# 📘 YourProject Documentation
+# 📘 Technical Documentation "Tech"
 
 Welcome to the Technical Documentation for **Tech** project.
 

@@ -3,6 +3,7 @@ theme:
   name: material
 
 nav:
+  - Home: index.md
   - Security:
       - Encryption: security/encryption.md
       - Public & Private Keys: security/asymmetric-keys.md
