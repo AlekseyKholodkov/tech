@@ -3,6 +3,16 @@ description: "Technical Documentation Project"
 theme: jekyll-theme-slate
 markdown: kramdown
 
+toc:
+  - title: Security
+    subfolderitems:
+      - page: Encryption
+        url: /security/encryption.html
+      - page: Asymmetric Keys
+        url: /security/asymmetric-keys.html
+      - page: Thing 3
+        url: /thing3.html
+
 # Navigation structure
 nav:
   - Home: index.md
@@ -12,6 +22,9 @@ nav:
   - Development:
       - Setup: development/setup.md
       - Architecture: development/architecture.md
+
+header_pages:
+  - Home: index.md
 
 # Optional: Sidebar (using jekyll-toc plugin for a table of contents sidebar)
 plugins:
