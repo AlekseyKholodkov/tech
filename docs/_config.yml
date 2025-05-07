@@ -1,7 +1,9 @@
 title: TechDoc
 description: "Technical Documentation Project"
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
+remote_theme: pages-themes/leap-day@v0.2.0
 markdown: kramdown
+
 
 toc:
   - title: Security
@@ -26,6 +28,6 @@ nav:
 header_pages:
   - Home: index.md
 
-# Optional: Sidebar (using jekyll-toc plugin for a table of contents sidebar)
 plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-toc
