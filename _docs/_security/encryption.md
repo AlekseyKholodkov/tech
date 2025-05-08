@@ -1,3 +1,8 @@
+---
+title: Encryption
+nav_order: 1
+parent: Security
+---
 # 🔐 Encryption Process
 
 ## What is Encryption?

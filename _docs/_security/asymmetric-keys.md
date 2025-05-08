@@ -1,3 +1,8 @@
+---
+title: Public and Private Keys
+nav_order: 2
+parent: Security
+---
 # 🔑 Public and Private Keys in Asymmetric Encryption
 
 ## What Is Asymmetric Encryption?
