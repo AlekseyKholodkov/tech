@@ -1,10 +1,13 @@
 title: TechDoc
 description: "Technical Documentation Project"
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
+nav_enabled: true
+heading_anchors: true
 search_enabled: true
-color_scheme: light
 
 collections:
   docs:
     output: true
     permalink: /:collection/:path/
+
+#just-the-docs theme documentation https://just-the-docs.com
